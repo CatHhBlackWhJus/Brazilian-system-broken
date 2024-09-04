@@ -1,6 +1,6 @@
 --RELOAD GUI
 if game.CoreGui:FindFirstChild("SysBroker") then
-	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "System Broken",Text = "GUI Already loaded, rejoin to re-execute",Duration = 5;})
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "System Broken",Text = "GUI Já foi executado., saia e entre de volta no jogo e re-execute o system broken original ou a versão brasileira(esta). (15 segundos)",Duration = 15;})
 	return
 end
 local version = 2
