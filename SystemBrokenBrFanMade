@@ -1,6 +1,6 @@
 --RELOAD GUI
 if game.CoreGui:FindFirstChild("SysBroker") then
-	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "System Broken",Text = "GUI já carregada, junte-se novamente para executar novamente. 15 seg.",Duration = 15;})
+	game:GetService("StarterGui"):SetCore("SendNotification", {Title = "System Broken",Text = "GUI já carregada, junte-se novamente para executar novamente.",Duration = 15;})
 	return
 end
 local version = 2
@@ -723,7 +723,7 @@ CMDBar.Font = Enum.Font.Gotham
 CMDBar.PlaceholderColor3 = Color3.fromRGB(62, 62, 62)
 CMDBar.PlaceholderText = "BARRA DE CMDS..."
 CMDBar.Text = ""
-CMDBar.TextColor3 = Color3.fromRGB(20, 20, 20)
+CMDBar.TextColor3 = Color3.fromRGB(62, 62, 62)
 CMDBar.TextSize = 14.000
 CMDBar.TextWrapped = true
 
@@ -983,7 +983,7 @@ WalkSpeed_Input.Font = Enum.Font.Gotham
 WalkSpeed_Input.PlaceholderColor3 = Color3.fromRGB(62, 62, 62)
 WalkSpeed_Input.PlaceholderText = "Número [1 a 99999]"
 WalkSpeed_Input.Text = ""
-WalkSpeed_Input.TextColor3 = Color3.fromRGB(20, 20, 20)
+WalkSpeed_Input.TextColor3 = Color3.fromRGB(62, 62, 62)
 WalkSpeed_Input.TextSize = 14.000
 WalkSpeed_Input.TextWrapped = true
 
@@ -1013,7 +1013,7 @@ JumpPower_Input.Font = Enum.Font.Gotham
 JumpPower_Input.PlaceholderColor3 = Color3.fromRGB(62, 62, 62)
 JumpPower_Input.PlaceholderText = "número [1 a 99999]"
 JumpPower_Input.Text = ""
-JumpPower_Input.TextColor3 = Color3.fromRGB(20, 20, 20)
+JumpPower_Input.TextColor3 = Color3.fromRGB(62, 62, 62)
 JumpPower_Input.TextSize = 14.000
 JumpPower_Input.TextWrapped = true
 
@@ -1088,7 +1088,7 @@ FlySpeed_Input.Font = Enum.Font.Gotham
 FlySpeed_Input.PlaceholderColor3 = Color3.fromRGB(62, 62, 62)
 FlySpeed_Input.PlaceholderText = "Número [1 entre 99999]"
 FlySpeed_Input.Text = ""
-FlySpeed_Input.TextColor3 = Color3.fromRGB(20, 20, 20)
+FlySpeed_Input.TextColor3 = Color3.fromRGB(62, 62, 62)
 FlySpeed_Input.TextSize = 14.000
 FlySpeed_Input.TextWrapped = true
 
@@ -1139,7 +1139,7 @@ TargetName_Input.Font = Enum.Font.Gotham
 TargetName_Input.PlaceholderColor3 = Color3.fromRGB(62, 62, 62)
 TargetName_Input.PlaceholderText = "@target..."
 TargetName_Input.Text = ""
-TargetName_Input.TextColor3 = Color3.fromRGB(20, 20, 20)
+TargetName_Input.TextColor3 = Color3.fromRGB(62, 62, 62)
 TargetName_Input.TextSize = 14.000
 TargetName_Input.TextWrapped = true
 
@@ -1922,7 +1922,7 @@ Crown.BorderColor3 = Color3.fromRGB(62, 62, 62)
 Crown.BorderSizePixel = 0
 Crown.Rotation = -20.000
 Crown.Size = UDim2.new(0, 75, 0, 75)
-Crown.Image = "rbxassetid://12298407748"
+Crown.Image = "rbxassetid://110368333444825"
 Crown.ImageColor3 = Color3.fromRGB(119, 168, 255)
 
 Assets.Name = "Assets"
